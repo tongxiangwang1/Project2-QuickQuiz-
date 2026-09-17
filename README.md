@@ -1,16 +1,49 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# QuickQuiz - Project 2
 
-Currently, two official plugins are available:
+QuickQuiz is a two-player quiz web application developed for AUT COMP602 Software Development Practice.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This repository is the clean Project 2 implementation. It provides a shared React foundation and an architecture based on the team's Component, Class, and Sequence UML diagrams.
 
-## React Compiler
+## Sprint 1 Goal
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Deliver a working two-player quiz round in which players alternate selecting coloured categories, answer timed questions, receive immediate feedback, and compare their final scores and statistics.
 
-## Expanding the ESLint configuration
+## Current Status
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The `main` branch currently contains:
+
+- A working React and Vite project
+- A basic QuickQuiz interface
+- The shared project folder structure
+- View, controller, model, repository, and service skeletons
+- Method signatures and TODO placeholders based on the UML diagrams
+
+Sprint 1 features will be implemented separately in feature branches and merged into `main` through pull requests after testing and review.
+
+## Technologies
+
+- React
+- JavaScript
+- Vite
+- CSS
+- ESLint
+- Git and GitHub
+
+## Getting Started
+
+### Requirements
+
+Install the following software before running the project:
+
+- Node.js
+- npm
+- Git
+
+### Installation
+
+Open a terminal inside the project directory and install the dependencies:
+
+```bash
+npm install
